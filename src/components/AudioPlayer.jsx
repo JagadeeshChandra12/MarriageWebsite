@@ -40,7 +40,7 @@ export default function AudioPlayer({ isEnvelopeOpen }) {
       {/* HTML5 Audio Element */}
       <audio
         ref={audioRef}
-        src="/audio/bgm.mp3"
+        src="/audio/bgm.aac"
         loop
         preload="auto"
       />
